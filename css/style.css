@@ -1,11 +1,16 @@
-body {
-	background-color: white;
-	margin: 0px;
-	padding: 0px;
+/* Large desktop */
+@media (min-width: 1200px) { 
+	.container-fluid {
+		width: 1170px;
+		margin: 0 auto;
+	}
 }
-
-#cv {
-	width: 1172px;
-	height: 3270px;
-	margin: 0 auto;
-}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
