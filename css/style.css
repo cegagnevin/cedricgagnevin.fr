@@ -1,8 +1,79 @@
+body {
+	color: #666666;
+	font-size: 16px;
+}
+
+
+/* Classes */
+.background {
+	background: #f9f9fa;
+}
+.dark-background {
+	background: #f3f5f9;
+}
+.light-background {
+	background: #ffffff;
+}
+
+
+
 /* Large desktop */
 @media (min-width: 1200px) { 
 	.container-fluid {
-		width: 1170px;
+		width: 1200px; 
 		margin: 0 auto;
+	}
+	.header {
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 30px;
+		border-bottom: 8px solid #2c3340;
+	}
+	h1 {
+		font-family: "BetterHeather", Arial, sans-serif;
+		font-weight: normal;
+		letter-spacing: 2px;
+		font-size: 5em;
+		color: #173674;
+	}
+	h2 {
+		font-weight: normal;
+		font-size: 2.5em;
+		letter-spacing: 2px;
+		color: #414141;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.83);
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	.header .info {
+		font-size: 18px;
+		font-weight: bold;
+		color: #3e3e3e;
+		padding-top: 10px;
+	}
+	.email {
+		background-image: url(../img/envelope.png);
+		background-repeat: no-repeat;
+		background-position: 0px 6px;
+		padding-left: 55px;
+	}
+	.address {
+		background-image: url(../img/spot.png);
+		background-repeat: no-repeat;
+		background-position: 4px 0px;
+		padding-left: 45px;
+	}
+	.website {
+		background-image: url(../img/globe.png);
+		background-repeat: no-repeat;
+		background-position: 2px 4px;
+		padding-left: 55px;
+	}
+	.birthdate {
+		background-image: url(../img/birthdate.png);
+		background-repeat: no-repeat;
+		background-position: 0px 4px;
+		padding-left: 45px;
 	}
 }
  
@@ -14,6 +85,11 @@
  
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
+
+@font-face {
+    font-family: "BetterHeather";
+    src: url('fonts/BetterHeather.ttf');
+}
 
 
 
