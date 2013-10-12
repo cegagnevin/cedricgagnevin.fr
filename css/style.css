@@ -1,6 +1,8 @@
 body {
 	color: #666666;
 	font-size: 16px;
+	letter-spacing: 0.15px;
+	text-align: justify;
 }
 
 
@@ -23,10 +25,15 @@ body {
 		width: 1200px; 
 		margin: 0 auto;
 	}
-	.header {
+	.content {
 		padding-left: 50px;
 		padding-right: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.header {
 		padding-top: 30px;
+		padding-bottom: 0px;
 		border-bottom: 8px solid #2c3340;
 	}
 	h1 {
@@ -44,6 +51,14 @@ body {
 		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.83);
 		margin-top: 40px;
 		margin-bottom: 30px;
+	}
+	h3 {
+		font-family: "BetterHeather", Arial, sans-serif;
+		font-weight: normal;
+		letter-spacing: 2px;
+		font-size: 3em;
+		color: #29406e;
+		margin-bottom: 50px;
 	}
 	.header .info {
 		font-size: 18px;
@@ -75,6 +90,13 @@ body {
 		background-position: 0px 4px;
 		padding-left: 45px;
 	}
+	.networks {
+		background-image: url(../img/atom.png);
+		background-repeat: no-repeat;
+		background-position: 50px 45px;
+		padding-left: 140px;
+	}
+
 }
  
 /* Portrait tablet to landscape and desktop */
