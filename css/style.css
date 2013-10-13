@@ -96,6 +96,39 @@ body {
 		background-position: 50px 45px;
 		padding-left: 140px;
 	}
+	.logos {
+		text-align: center;
+		padding-left: 30px;
+	}
+	.logos img {
+		max-width: 130px;
+		max-height: 90px;
+		filter: grayscale(80%);
+	    -webkit-filter: grayscale(80%);
+	    -moz-filter: grayscale(80%);
+	    -ms-filter: grayscale(80%);
+	    -o-filter: grayscale(80%);
+	    -moz-transition: all 1s ease;
+		-webkit-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
+		-webkit-filter:grayscale(1);
+	}
+	.logos img:hover {
+		max-width: 130px;
+		max-height: 90px;
+		filter: grayscale(0%);
+	    -webkit-filter: grayscale(0%);
+	    -moz-filter: grayscale(0%);
+	    -ms-filter: grayscale(0%);
+	    -o-filter: grayscale(0%);
+	    cursor: pointer;
+	}
+	.network-adjust {
+		position: relative;
+		top: 23px;
+	}
 
 }
  
