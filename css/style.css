@@ -231,6 +231,7 @@ h4 {
 }
 .tag {
 	background-image: url(../img/tag-background.png);
+	background-repeat: repeat-x;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 12px;
@@ -489,16 +490,148 @@ h4 {
 	.others h3 {
 		margin-top: 50px;
 	}
+	.lessons {
+		padding-bottom: 35px;
+	}
 
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 670px) { 
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 1.5em;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	.education .t1 {
+		background-size: 13% auto;
+	}
 
 }
  
 /* Landscape phones and down */
-@media (max-width: 480px) { ... }
+@media (max-width: 480px) { 
+	body {
+		font-size: 0.9em;
+	}
+	.content {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	/* Header */
+	.email {
+		background-size: 30px auto;
+		background-position: 3px 10px;
+	}
+	.address {
+		padding-left: 55px;
+		background-position: 7px 2px;
+		background-size: 21px auto;
+	}
+	.website {
+		background-position: 4px 6px;
+		background-size: 28px auto;
+	}
+	.birthdate {
+		padding-left: 55px;
+		background-position: 5px 4px;
+		background-size: 28px auto;
+	}
+	/* Social networks */
+	.networks h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.networks .t1 {
+		background-size: 50px auto;
+		padding-left: 70px;
+	}	
+	.logos img {
+		width: 100px;
+	}
+	/* Works */
+	.works h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.works .t1 {
+		background-size: 50px auto;
+		padding-left: 70px;
+	}	
+	/* Education */
+	.education h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.education .t1 {
+		background-size: 50px auto;
+		padding-left: 70px;
+	}	
+	/* Skills */
+	.skills .t1 {
+		background-size: 50px auto;
+		padding-left: 70px;
+	}
+	.skills h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.tags {
+		font-size: 0.85em;
+		max-width: 250px;
+	}
+	/* Hobbies */
+	.hobbies .t1 {
+		background-size: 50px auto;
+		background-position: 10px 6px;
+		padding-left: 70px;
+	}
+	.hobbies h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.watch {
+		padding-left: 75px;
+		background-size: 40px auto;
+	}
+	.sport {
+		padding-left: 75px;
+		background-size: 40px auto;
+		background-position: 10px 0px;
+	}
+	/* Others */
+	.others .t1 {
+		background-size: 60px auto;
+		padding-left: 70px;
+	}
+	.others h3 {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.languages {
+		padding-left: 75px;
+		background-size: 40px auto;
+		background-position: 10px 0px;
+	}
+	.qualifications{
+		padding-left: 75px;
+		background-size: 25px auto;
+		background-position: 17px 0px;
+	}
+	.lessons{
+		padding-left: 75px;
+		background-size: 30px auto;
+		background-position: 15px 0px;
+	}
+}
 
 
 
