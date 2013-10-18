@@ -418,6 +418,15 @@ h4 {
 		width: 1200px; 
 	}
 }
+
+@media (max-width: 1199px) { 
+	.works .items {
+		background: none;
+	}
+	.education .items {
+		background: none;
+	}
+}
  
 @media (min-width: 769px) and (max-width: 1054px) { 
 	.email {
@@ -441,6 +450,10 @@ h4 {
 		position: relative;
 		top: 52px;
 	}
+	.logos .span2 {
+		width: auto;
+	}
+
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -448,10 +461,7 @@ h4 {
 
 }
  
-/* Landscape phone to portrait tablet */
-@media (max-width: 670px) { 
 
-}
 
 @media (max-width: 767px) { 
 	.avatar {
@@ -460,6 +470,31 @@ h4 {
 	.header .info {
 		padding-bottom: 10px;
 	}
+	.logos .span2 {
+		line-height: 80px;
+	}
+	.github {
+		position: relative;
+		top: 30px;
+	}
+	.duration {
+		margin-bottom: 130px;
+	}
+	h4 {
+		margin-top: 20px;
+	}
+	.t1 {
+		padding-bottom: 10px;
+	}
+	.others h3 {
+		margin-top: 50px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 670px) { 
+
 }
  
 /* Landscape phones and down */
