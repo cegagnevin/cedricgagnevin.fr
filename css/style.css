@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: "BetterHeather";
-    src: url('fonts/BetterHeather.ttf');
+    src: url('../fonts/BetterHeather.ttf');
 }
 
 a {
@@ -94,6 +94,12 @@ h4 {
 	font-weight: bold;
 	color: #3e3e3e;
 	padding-top: 10px;
+}
+.header a {
+	color: #3e3e3e;
+}
+.header a:hover {
+	text-decoration: none;
 }
 .email {
 	background-image: url(../img/envelope.png);
