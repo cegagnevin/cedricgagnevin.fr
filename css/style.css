@@ -272,6 +272,14 @@ h4 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.wordpress {
+	background-image: url(../img/logo-wordpress.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding-left: 37px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 .php {
 	background-image: url(../img/logo-php.png);
 	background-repeat: no-repeat;
