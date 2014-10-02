@@ -376,6 +376,14 @@ h4 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.laravel {
+	background-image: url(../img/logo-laravel.png);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	padding-left: 42px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 /* Hobbies */
 .hobbies .t1 {
 	background-image: url(../img/like.png);
@@ -396,6 +404,13 @@ h4 {
 	background-position: 0px 5px;
 	padding-left: 120px;
 	padding-bottom: 20px;
+}
+.moto {
+	background-image: url(../img/moto.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 120px;
+	padding-bottom: 34px;
 }
 /* Others */
 .others .t1 {
@@ -420,6 +435,13 @@ h4 {
 }
 .lessons {
 	background-image: url(../img/lessons.png);
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+	padding-left: 120px;
+	padding-bottom: 20px;
+}
+.image-isima {
+	background-image: url(../img/image-isima.png);
 	background-repeat: no-repeat;
 	background-position: 2px 5px;
 	padding-left: 120px;
